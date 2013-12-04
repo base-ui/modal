@@ -1,0 +1,27 @@
+{
+  "name": "modal",
+  "repo": "base-ui/modal",
+  "description": "Base modal",
+  "version": "0.0.1",
+  "paths": [],
+  "local": [],
+  "keywords": [],
+  "dependencies": {
+    "shallker-wang/eventy": "*",
+    "component/jquery": "1.9.1"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/modal.js",
+    "lib/trigger.js"
+  ],
+  "styles": [
+    "modal.css"
+  ],
+  "images": [
+    "img/trans-bg.png"
+  ]
+}
