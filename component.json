@@ -16,7 +16,8 @@
   "scripts": [
     "index.js",
     "lib/modal.js",
-    "lib/trigger.js"
+    "lib/trigger.js",
+    "lib/auto-init.js"
   ],
   "styles": [
     "modal.css"
