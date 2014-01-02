@@ -1,0 +1,23 @@
+extends layout/default
+
+append scripts
+  script
+    require('modal');
+
+append content
+  h1 Modal
+
+  a(href="#", data-open-modal="#modal-foo") Open Modal Foo
+  br
+  a(href="#", data-close-modal="#modal-foo") Close Modal Foo
+  br
+  a(href="#", data-toggle-modal="#modal-foo") Toggle Modal Foo
+
+  #modal-foo.ui.modal.auto-init(data-ignore-outer-click="true")
+    .inner
+      .content
+        .close-modal
+          i.icon.close.button(data-modal-trigger-close) x
+        p hello world
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius commodo consectetur. Sed pulvinar tellus vitae tincidunt vestibulum. Donec eu sem vitae orci dapibus varius in sed nisl. Mauris felis dolor, consectetur et volutpat rutrum, dignissim eu nisl. Sed gravida ullamcorper orci, ac commodo nisi rhoncus a. Nam elementum ultrices magna luctus interdum. Vestibulum risus libero, mattis sed condimentum et, bibendum non lectus. Sed nisl tortor, porttitor nec blandit ut, tempor eu ipsum. Ut vitae mauris nulla. Etiam tempus massa odio, at consectetur mi luctus et. Cras justo nunc, pharetra vel turpis et, bibendum euismod erat. In varius convallis varius.
+        p Suspendisse a nisi egestas, ullamcorper tellus sit amet, venenatis risus. Vestibulum sodales ornare elit, ut malesuada erat dapibus eget. Sed sit amet quam ut turpis cursus convallis. In hac habitasse platea dictumst. Donec viverra lorem non massa consectetur auctor. Donec gravida hendrerit ipsum, a blandit velit dignissim in. In aliquet diam faucibus urna congue congue. Donec leo sem, facilisis non posuere eu, mattis vitae ligula. Nam non magna est. Donec id mi lacus. Proin lectus mi, sodales gravida adipiscing sed, cursus ac tortor. Aenean sodales cursus orci et tincidunt. Aenean facilisis ante eu lectus aliquam, quis posuere quam viverra.
