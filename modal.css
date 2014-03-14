@@ -15,11 +15,17 @@
 .ui.modal.open {
   display: block;
 }
+.ui.modal .display-table {
+  display: table;
+}
 .ui.modal .display-table-cell {
   display: table-cell;
 }
 .ui.modal .vertical-align-middle {
   vertical-align: middle;
+}
+.ui.modal .margin-auto {
+  margin: auto;
 }
 .ui.modal .modal-inner {
   display: table;
