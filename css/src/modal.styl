@@ -15,17 +15,22 @@
   &.open
     display block
 
-  >.inner
+  .display-table-cell
+    display table-cell
+
+  .vertical-align-middle
+    vertical-align middle
+
+  .modal-inner
     display table
     position relative
     margin auto
-    margin-top 5%
-    max-width 80%
     opacity 1
     background-color white
+    max-width 80%
 
-    >.content
-      padding 10px
+  .modal-content
+    padding 10px
 
   .close-modal-button
     position absolute

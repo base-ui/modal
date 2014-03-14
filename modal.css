@@ -15,16 +15,21 @@
 .ui.modal.open {
   display: block;
 }
-.ui.modal >.inner {
+.ui.modal .display-table-cell {
+  display: table-cell;
+}
+.ui.modal .vertical-align-middle {
+  vertical-align: middle;
+}
+.ui.modal .modal-inner {
   display: table;
   position: relative;
   margin: auto;
-  margin-top: 5%;
-  max-width: 80%;
   opacity: 1;
   background-color: #fff;
+  max-width: 80%;
 }
-.ui.modal >.inner >.content {
+.ui.modal .modal-content {
   padding: 10px;
 }
 .ui.modal .close-modal-button {
